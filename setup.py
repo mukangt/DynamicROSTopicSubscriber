@@ -2,7 +2,7 @@
 Author       : HANG Tao (BCSC-EPA1, XC-DX/PJ-W3-PMT) Tao.HANG@cn.bosch.com
 Date         : 2024-08-19 23:22:47
 LastEditors  : HANG Tao (BCSC-EPA1, XC-DX/PJ-W3-PMT) Tao.HANG@cn.bosch.com
-LastEditTime : 2024-08-19 23:51:47
+LastEditTime : 2024-08-20 10:24:52
 FilePath     : /DynamicROSTopicSubscriber/setup.py
 Description  : 
 
@@ -15,7 +15,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="dynamic_rostopic_subscriber",
+    name="dynamic-rostopic-subscriber",
     version="0.1.0",
     author="HANG Tao",
     author_email="mukangt@qq.com",

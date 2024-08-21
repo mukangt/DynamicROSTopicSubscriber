@@ -10,10 +10,10 @@ Dynamic ROSTopic Subscriber 是一个 Python 库，用于简化 ROS（机器人�
 
 ## 安装 
 
-使用 pip 安装 Dynamic ROS Subscriber： 
+使用 pip 安装 Dynamic ROS Topic Subscriber： 
 
 ```bash 
-pip install dynamic_ros_subscriber 
+pip install dynamic_rostopic_subscriber 
 ``` 
 
 ## 使用方法 
@@ -21,26 +21,26 @@ pip install dynamic_ros_subscriber
 以下是一个基本的使用示例： 
 
 ```python 
-from dynamic_ros_subscriber import ros_subscriber 
+from dynamic_rostopic_subscriber import rostopic_subscriber 
 
-@ros_subscriber.subscribe("/some/ros/topic") 
+@rostopic_subscriber.subscribe("/some/ros/topic") 
 def callback_function(msg): 
     print(f"Received message: {msg}") 
     
 if __name__ == "__main__": 
-    ros_subscriber.spin() 
+    rostopic_subscriber.spin() 
 ``` 
 
 ## API 参考 
 
-### `@ros_subscriber.subscribe(topic, msg_type=AnyMsg)` 
+### `@rostopic_subscriber.subscribe(topic, msg_type=AnyMsg)` 
 
 装饰器函数，用于订阅 ROS 主题。 
 
 - `topic`: 要订阅的 ROS 主题名称 
 - `msg_type`: 消息类型（可选，默认为 AnyMsg） 
 
-### `ros_subscriber.spin()` 
+### `rostopic_subscriber.spin()` 
 
 开始处理 ROS 消息。这个方法会阻塞，直到 ROS 节点被关闭。 
 

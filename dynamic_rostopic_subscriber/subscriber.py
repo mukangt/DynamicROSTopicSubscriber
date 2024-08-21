@@ -2,7 +2,7 @@
 Author       : HANG Tao (BCSC-EPA1, XC-DX/PJ-W3-PMT) Tao.HANG@cn.bosch.com
 Date         : 2024-08-19 23:23:52
 LastEditors  : HANG Tao (BCSC-EPA1, XC-DX/PJ-W3-PMT) Tao.HANG@cn.bosch.com
-LastEditTime : 2024-08-20 10:14:58
+LastEditTime : 2024-08-20 10:33:52
 FilePath     : /DynamicROSTopicSubscriber/dynamic_rostopic_subscriber/subscriber.py
 Description  : 
 
@@ -133,4 +133,4 @@ class DynamicROSTopicSubscriber:
 
 
 # Create global instance
-ros_subscriber = DynamicROSTopicSubscriber()
+rostopic_subscriber = DynamicROSTopicSubscriber()
