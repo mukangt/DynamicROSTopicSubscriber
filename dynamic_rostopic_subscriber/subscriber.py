@@ -2,7 +2,7 @@
 Author       : HANG Tao (BCSC-EPA1, XC-DX/PJ-W3-PMT) Tao.HANG@cn.bosch.com
 Date         : 2024-08-19 23:23:52
 LastEditors  : HANG Tao (BCSC-EPA1, XC-DX/PJ-W3-PMT) Tao.HANG@cn.bosch.com
-LastEditTime : 2024-08-20 10:33:52
+LastEditTime : 2024-08-22 10:43:31
 FilePath     : /DynamicROSTopicSubscriber/dynamic_rostopic_subscriber/subscriber.py
 Description  : 
 
@@ -22,7 +22,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-
+# from loguru import logger
 # Singleton decorator to ensure only one instance of the class
 def singleton(cls):
     instances = {}
